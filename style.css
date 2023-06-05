@@ -58,12 +58,22 @@ button::selection
 {
     background: none;
 }
-input
+span::selection
+{
+    background: none;
+}
+.format
 {
     margin-bottom: 10px;
     width: 100%;
     border-radius: 15px;
-    padding: 7px;
+    padding: 8px;
+    background-color: #323555;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+}
+input
+{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 600;
     font-size: large;
@@ -103,4 +113,8 @@ input
 {
     margin-bottom: 0px;
     margin-right: 10px;
+}
+.folks
+{
+    margin-right: 5px;
 }
